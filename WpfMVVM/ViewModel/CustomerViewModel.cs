@@ -14,7 +14,7 @@ namespace WpfMVVM.ViewModel
     {
         private Customer _Customer = null;
 
-        private ICommand _mCommand;
+        
 
         private ICommand _writeCommand;
         public ICommand writeCommand
@@ -26,7 +26,7 @@ namespace WpfMVVM.ViewModel
         }
 
 
-
+        private ICommand _mCommand;
         public ICommand mCommand
         {
             get
